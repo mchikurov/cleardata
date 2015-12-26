@@ -58,8 +58,6 @@ set1wide <- dcast(set1melted,Subject_ID + Activity_name ~ variable, mean)
 
 # Making a long resultset
 
-set1long <- aggregate(value ~ Subject_ID + Activity_name + variable, data=set1melted, mean)
-
 set1long <- aggregate(value ~ variable + Activity_name + Subject_ID, data=set1melted, mean)
 
 
