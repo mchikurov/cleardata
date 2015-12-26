@@ -1,6 +1,6 @@
 # Clear data
 
-This repo contain file clear.R which contains code for preparation of tidy dataset from Human Activity Recognition Using Smartphones Dataset provided by Smartlab - Non Linear Complex Systems Laboratory
+This repo contain file run_analysis.R which contains code for preparation of tidy dataset from Human Activity Recognition Using Smartphones Dataset provided by Smartlab - Non Linear Complex Systems Laboratory
 
 The dataset could be obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip or
@@ -36,8 +36,8 @@ The script contains code which performs following operations
 
 As a result script generates "long" resultset created in step 5 as 'resultset_long.txt' (Code for generating "wide" resultset also included in script)
 
-Please refer to comments in clear.R for more details on how the script works
+Please refer to comments in run_analysis.R for more details on how the script works
 
-Prease refer to codebook.md for description of resultset_long.txt
+Prease refer to CodeBook.md for description of resultset_long.txt
 
 Enjoy!
